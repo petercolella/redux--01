@@ -17,26 +17,30 @@ export const decrement = () => {
     };
 };
 
-export const add = ( value ) => {
+export const add = ( val ) => {
     return {
-        type: ADD
+        type: ADD,
+        value: val
     };
 };
 
-export const subtract = () => {
+export const subtract = ( val ) => {
     return {
-        type: SUBTRACT
+        type: SUBTRACT,
+        value: val
     };
 };
 
-export const storeResult = () => {
+export const storeResult = ( res ) => {
     return {
-        type: STORE_RESULT
+        type: STORE_RESULT,
+        result: res
     };
 };
 
-export const deleteResult = () => {
+export const deleteResult = ( resElId ) => {
     return {
-        type: DELETE_RESULT
+        type: DELETE_RESULT,
+        resultElId: resElId
     };
 };
