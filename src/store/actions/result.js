@@ -14,7 +14,7 @@ export const storeResult = ( res ) => {
             // const oldCounter = getState().ctr.counter;
             // console.log( oldCounter );
             dispatch( saveResult( res ) )
-        }, 2000 )
+        }, 200 )
     }
 };
 
