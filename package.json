@@ -5,7 +5,7 @@
   "dependencies": {
     "hoek": "^5.0.4",
     "lodash": "^4.17.20",
-    "merge": "^1.2.1",
+    "merge": "^2.1.1",
     "mime": "^2.4.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
